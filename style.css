@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, white 1%, blue 95%);
+}
+
+#layoutMockup {
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    height: 50vh;
+    width: 33vw;
+    background-image: linear-gradient(to bottom, white 1%, blue 95%);
+}
+
+#layoutMockup > div {
+    background-color: wheat;
+    display: none;
+    justify-content: center;
+}
